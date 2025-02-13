@@ -1,9 +1,3 @@
-Here is a well-structured and detailed `README.md` file for your public GitHub repository:
-
----
-
-### 📌 **README.md for MongoDB + Mongo Express with Docker Compose**  
-
 # 🚀 MongoDB & Mongo Express - Docker Compose Setup
 
 This repository provides an easy-to-use **Docker Compose setup** for running **MongoDB** with **Mongo Express**. The setup allows you to spin up a **MongoDB database** along with a **web-based UI** for easy database management. Configuration values are loaded dynamically from a `.env` file for flexibility.
