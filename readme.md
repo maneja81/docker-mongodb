@@ -94,6 +94,14 @@ Ensure your `.env` file contains correct values before running the containers.
 | `docker-compose logs` | Displays logs for troubleshooting |
 | `docker-compose exec mongodb bash` | Opens a shell inside the MongoDB container |
 
+You can also use npm to run these commands and these are configured as follows:
+```sh
+npm run docker:up
+npm run docker:down
+npm run docker:list
+npm run docker:logs
+npm run docker:bash
+```
 ---
 
 ## 🌐 **Accessing the Services**
@@ -127,7 +135,7 @@ The `.env` file is used to configure MongoDB and Mongo Express. Below are the av
 ---
 
 ## 📂 **Directory Structure**
-```
+```sh
 📂 your-repository-name
  ├── 📄 .env.example         # Example environment variables file
  ├── 📄 .env                 # Your custom environment variables (ignored in Git)

@@ -1,0 +1,24 @@
+{
+  "name": "@yoddaa/docker-mongodb",
+  "version": "1.0.0",
+  "description": "This repository provides an easy-to-use **Docker Compose setup** for running **MongoDB** with **Mongo Express**. The setup allows you to spin up a **MongoDB database** along with a **web-based UI** for easy database management. Configuration values are loaded dynamically from a `.env` file for flexibility.",
+  "main": "index.js",
+  "scripts": {
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "docker:list": "docker-compose ps",
+    "docker:logs": "docker-compose logs",
+    "docker:bash": "docker-compose exec mongodb bash"
+  },
+  "keywords": [
+    "docker",
+    "mongodb",
+    "mongo-express",
+    "database",
+    "compose",
+    "setup"
+  ],
+  "git": "https://github.com/maneja81/docker-mongodb",
+  "author": "Mohit Aneja <mohitaneja@gmail.com>",
+  "license": "ISC"
+}
