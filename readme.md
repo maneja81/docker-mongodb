@@ -184,7 +184,3 @@ This project is licensed under the **MIT License**. You are free to use, modify,
 Feel free to fork this repository and submit a pull request with improvements!
 
 📩 **For any issues, raise a GitHub issue or contact me.** 🚀
-
----
-
-This `README.md` will make your repository **professional and easy to use** for developers. Let me know if you need any modifications! 🚀
